@@ -146,13 +146,20 @@
           <div class="profile-card">
             <div class="avatar-wrapper">
               <!-- PLACEHOLDER: Replace this SVG illustration or replace <img> with your photo (e.g., <img src="assets/profile.jpg" alt="" class="profile-img">) -->
-            <div class="avatar-wrapper">
-
-    <div class="avatar-placeholder">
-        <img src="C:\Users\siris\Downloads" alt="My Profile Photo" class="profile-img">
-    </div>
-
-</div>
+              <div class="avatar-placeholder" aria-label="Profile Avatar Placeholder">
+                <svg class="avatar-svg" viewBox="0 0 200 200" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Geometric portrait placeholder">
+                  <rect width="200" height="200" rx="100" fill="url(#avatar-grad)" />
+                  <circle cx="100" cy="80" r="36" fill="currentColor" fill-opacity="0.25" />
+                  <path d="M44 165C44 135 68 122 100 122C132 122 156 135 156 165" stroke="currentColor" stroke-width="12" stroke-linecap="round" fill="none" opacity="0.3" />
+                  <defs>
+                    <linearGradient id="avatar-grad" x1="0" y1="0" x2="200" y2="200" gradientUnits="userSpaceOnUse">
+                      <stop stop-color="var(--accent)" stop-opacity="0.2"/>
+                      <stop offset="1" stop-color="var(--accent-subtle)" stop-opacity="0.8"/>
+                    </linearGradient>
+                  </defs>
+                </svg>
+              </div>
+            </div>
 
             <div class="profile-meta">
               <!-- PLACEHOLDER: Your current title, affiliation, or university -->
